@@ -30,7 +30,7 @@ def consolidate_cart(cart)
   new_cart=[]
   count=0
   cart.each do |k|
-    p k[:count]=>0
+    k[:count]=>0
     #new_cart<<k if find_item_by_name_in_collection(k[:item],new_cart) == nil
   end
   new_cart.each do|k|
