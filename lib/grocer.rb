@@ -2,7 +2,8 @@ require_relative 'random_grocery_generator.rb'
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
-
+  p name
+  p collection
   # Consult README for inputs and outputs
 
 end
