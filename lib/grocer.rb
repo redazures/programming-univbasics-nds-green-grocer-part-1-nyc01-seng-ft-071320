@@ -14,7 +14,7 @@ end
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
-  collection.each do |item|
+  collection.each do |x|
     p item
   end
   # Consult README for inputs and outputs
