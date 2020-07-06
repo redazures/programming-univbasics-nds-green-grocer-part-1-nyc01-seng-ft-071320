@@ -33,7 +33,7 @@ def consolidate_cart(cart)
     count=0
     hodown=0
     while hodown !=cart.length
-      k[:item]
+      if k[:item]=card[count]item
     new_cart<< k.merge(:count=>1) if find_item_by_name_in_collection(k[:item],new_cart) == nil
   end
   # new_cart.each do|k|
