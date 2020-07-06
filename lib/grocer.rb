@@ -32,7 +32,7 @@ def consolidate_cart(cart)
   cart.each do |k|
     count=0
     hodown=0
-    while hodown !=cart.length
+    while hodown <cart.length
       #if k[:item]=
       p cart[count]:item
       hodown+=1
