@@ -1,9 +1,8 @@
-require_relative './random_grocery_generator.rb'
+require_relative '../random_grocery_generator.rb'
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
-  p name
-  p collection
+
   # Consult README for inputs and outputs
 
 end
@@ -16,4 +15,4 @@ def consolidate_cart(cart)
 
 end
 
-find_item_by_name_in_collection(chicken,items)
+find_item_by_name_in_collection("AVOCADO","items")
