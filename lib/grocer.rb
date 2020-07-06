@@ -8,7 +8,7 @@ grocery_shelf = [
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
-  collection.each do |k|
+  collection.each do |k,v|
     p k[:item]
   end
   # Consult README for inputs and outputs
