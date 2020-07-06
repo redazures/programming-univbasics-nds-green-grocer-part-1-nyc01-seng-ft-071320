@@ -1,4 +1,4 @@
-require_relative '../spec/random_grocery_generator.rb'
+require_relative '../random_grocery_generator.rb'
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
