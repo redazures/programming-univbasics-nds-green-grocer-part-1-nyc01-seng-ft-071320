@@ -32,7 +32,7 @@ def consolidate_cart(cart)
     #new_cart<<k
     new_cart<<item if find_item_by_name_in_collection(k[:item],new_cart) != nil
   end
-  cart
+  new_cart
 end
 
 #p find_item_by_name_in_collection("CANNED BEANS",grocery_shelf)
