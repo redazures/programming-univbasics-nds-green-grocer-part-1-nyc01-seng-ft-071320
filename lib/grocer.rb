@@ -15,7 +15,7 @@ end
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   collection.each do |item,info|
-    p info if item[:name]==name
+    p item[:name]==name
   end
   # Consult README for inputs and outputs
 
