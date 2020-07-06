@@ -13,7 +13,7 @@ def find_item_by_name_in_collection(name, collection)
     cats k if k[:item]==name
   end
   # Consult README for inputs and outputs
-
+cats
 end
 
 def consolidate_cart(cart)
