@@ -8,6 +8,7 @@ grocery_shelf = [
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
+  cats=nil
   collection.each do |k|
     return k if k[:item]==name
   end
