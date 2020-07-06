@@ -34,6 +34,7 @@ def consolidate_cart(cart)
     hodown=0
     while hodown <cart.length
       #if k[:item]=
+      p cart
       p cart[hodown][:item]
       hodown+=1
     end
