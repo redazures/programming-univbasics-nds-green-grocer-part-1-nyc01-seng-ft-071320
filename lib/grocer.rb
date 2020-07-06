@@ -32,7 +32,7 @@ def consolidate_cart(cart)
   cart.each do |k|
     #new_cart<<k
     new_cart<<k if find_item_by_name_in_collection(k[:item],new_cart) == nil
-    count
+    new_cart[:item]
   end
   new_cart
 end
