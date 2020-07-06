@@ -34,8 +34,7 @@ def consolidate_cart(cart)
     hodown=0
     while hodown <cart.length
       #if k[:item]=
-      p k[:item]
-      p cart[hodown][:item]
+      p k[:item] == cart[hodown][:item]
       hodown+=1
     end
     new_cart<< k.merge(:count=>1) if find_item_by_name_in_collection(k[:item],new_cart) == nil
