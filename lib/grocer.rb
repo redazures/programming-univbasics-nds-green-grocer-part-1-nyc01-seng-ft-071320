@@ -30,7 +30,7 @@ def consolidate_cart(cart)
   new_cart=[{:item => "AVOCADO", :price => 3.00, :clearance => true }]
   cart.each do |k|
     #new_cart<<k
-    p k[:item]==new_cart{}
+    p k[:item]==new_cart[item]
   end
   cart
 end
