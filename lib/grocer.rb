@@ -14,7 +14,8 @@ end
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
-
+  collection.each do |item,info|
+    item
   # Consult README for inputs and outputs
 
 end
@@ -27,4 +28,4 @@ def consolidate_cart(cart)
 
 end
 
-find_item_by_name_in_collection("AVOCADO","items")
+find_item_by_name_in_collection("AVOCADO",items)
