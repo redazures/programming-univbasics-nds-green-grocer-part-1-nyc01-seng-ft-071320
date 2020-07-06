@@ -18,6 +18,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item,info|
     p item
     p info
+  end
   # Consult README for inputs and outputs
 
 end
