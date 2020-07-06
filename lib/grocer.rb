@@ -30,10 +30,11 @@ def consolidate_cart(cart)
   new_cart=[{:item => "AVOCADO", :price => 3.00, :clearance => true }]
   cart.each do |k|
     #new_cart<<k
-    p k[:item]==new_cart[item]
+    p k[:item]
   end
   cart
 end
 
 #p find_item_by_name_in_collection("CANNED BEANS",grocery_shelf)
 p consolidate_cart(cart)
+cart.include?'AVOCADO'
