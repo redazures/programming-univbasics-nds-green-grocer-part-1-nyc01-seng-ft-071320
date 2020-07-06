@@ -4,7 +4,7 @@ grocery_shelf = [
   { :item => "SALSA", :price => 1.50, :clearance => false },
   { :item => "TORTILLAS", :price => 2.00, :clearance => false },
   { :item => "HOT SAUCE", :price => 1.75, :clearance => false }
-
+]
 
 def find_item_by_name_in_collection(name, collection)
   # Implement me first!
