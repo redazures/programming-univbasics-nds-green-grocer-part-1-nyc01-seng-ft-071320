@@ -31,11 +31,12 @@ def consolidate_cart(cart)
   count=0
   cart.each do |k|
 
-    #new_cart<< k.merge(:count=>1) if find_item_by_name_in_collection(k[:item],new_cart) == nil
+    new_cart<< k.merge(:count=>1) if find_item_by_name_in_collection(k[:item],new_cart) == nil
   end
   # new_cart.each do|k|
   #   p k
   # end
+  new_cart
 end
 
 #p find_item_by_name_in_collection("CANNED BEANS",grocery_shelf)
