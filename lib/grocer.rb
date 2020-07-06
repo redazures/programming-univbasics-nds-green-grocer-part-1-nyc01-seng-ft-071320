@@ -31,3 +31,4 @@ def consolidate_cart(cart)
 end
 
 #p find_item_by_name_in_collection("CANNED BEANS",grocery_shelf)
+p consolidate_cart(cart)
