@@ -10,7 +10,7 @@ def find_item_by_name_in_collection(name, collection)
   # Implement me first!
   cats=nil
   collection.each do |k|
-    cats k if k[:item]==name
+    cats= k if k[:item]==name
   end
   # Consult README for inputs and outputs
 cats
