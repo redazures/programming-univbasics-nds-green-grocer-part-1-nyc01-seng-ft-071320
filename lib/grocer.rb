@@ -29,7 +29,8 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   new_cart=[]
   cart.each do |k|
-    new_cart<<k
+    #new_cart<<k
+    p cart[item]
   end
   cart
 end
