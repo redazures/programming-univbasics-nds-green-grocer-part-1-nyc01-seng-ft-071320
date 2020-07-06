@@ -30,7 +30,7 @@ def consolidate_cart(cart)
   new_cart=[]
   cart.each do |k|
     #new_cart<<k
-    p cart[:item]
+    p k[:item]
   end
   cart
 end
