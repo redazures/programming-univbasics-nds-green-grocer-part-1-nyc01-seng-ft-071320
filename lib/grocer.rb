@@ -28,6 +28,7 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   new_cart=[]
+  count=0
   cart.each do |k|
     #new_cart<<k
     new_cart<<k if find_item_by_name_in_collection(k[:item],new_cart) == nil
